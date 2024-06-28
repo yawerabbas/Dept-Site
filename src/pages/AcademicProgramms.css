@@ -1,0 +1,119 @@
+.canvas{
+    width: 100%;
+    padding: 2rem;
+}
+
+.btech_head_d{
+    display: flex;
+    text-align: justify;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.btech_head{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
+    margin-right: 100px;
+}
+.btech{
+    padding: 3rem;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color:#89375F;
+
+}
+.mnv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #FFF3E2;
+    border-radius: 20px;
+}
+.list{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 6rem;
+  }
+  .el{
+    padding: 0.6rem;
+  }
+  .card-text{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 6rem;
+  }
+  .m{
+    padding:2rem;
+  }
+  .v{
+    padding:2rem;
+  }
+  .ugp{
+    padding: 4rem;
+  }
+  .nndone {
+    position: relative; 
+    height: 400px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nndone::before {    
+      content: "";
+      background-image: url("https://images.unsplash.com/photo-1536895058696-a69b1c7ba34f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+
+h5 {
+  position: relative;
+  color: #ffffff;  
+  
+  
+  text-align: center;
+}
+.kkn{
+    position: relative;
+    color: #ffffff;  
+  
+  
+  text-align: center;
+}
+.hmmn{
+    position: relative;
+    color: #ffffff;  
+    
+   text-align: center;
+  justify-content: flex-end;
+  justify-items: center;
+  background-color: blue;
+  
+}
+.card-tile{
+    font-size: 15rem;
+}
+.aboutUs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  height: 500px;
+}
+.tx{
+  color:white;
+}

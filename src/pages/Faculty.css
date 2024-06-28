@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.FacultyLists {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.FacultyMem h3 {
+  margin: 6vh 0vh;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.HOD h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 10vh 0vh;
+}
+.FacultyCard {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  align-items: center;
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+  border-radius: 4vh;
+  background: linear-gradient(
+      90.44deg,
+      rgba(245, 216, 199, 0) 50.25%,
+      #f9c8c8 9.75%
+    ),
+    linear-gradient(
+      151.75deg,
+      rgba(12, 121, 182, 0.2) 17.48%,
+      rgba(233, 206, 176, 0) 85.96%
+    );
+  background-blend-mode: normal, darken;
+}
+.INFO {
+  display: flex;
+  flex-direction: row;
+}
+.FacultyImg {
+  width: 15%;
+  margin-top: 2vh;
+}
+.FacultyImg img {
+  margin-left: 5vw;
+  height: 27vh;
+  width: 11vw;
+  border-radius: 50%;
+}
+.FacultyDetails {
+  width: 85%;
+  margin-left: 10vw;
+  margin-bottom: 1vh;
+}
+.HL1 {
+  border: solid 1px white;
+  width: 90%;
+  margin: 2vh 0vh;
+}
+.FacultyName {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+.FacultyName h2 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.479);
+}
+.FacultyName h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2.4vh;
+  margin-left: 4.5vw;
+  margin-bottom: 2vh;
+}
+.HL2 {
+  border: solid 1px white;
+  width: 50%;
+  margin-bottom: 2vh;
+}
+.FacultyInfo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5vh;
+  text-align: left;
+}
+.FacultyContacts {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.FacultyContacts h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1.4vh;
+  margin-bottom: 1vh;
+  margin-left: 2vh;
+}
+.VL1 {
+  border-left: solid 2px white;
+}
+.FacultySubject {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.FacultySubject h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2vh;
+  margin-top: 1.4vh;
+  margin-bottom: 1vh;
+}
+.Facultybtn{
+    width: 12vw;
+    height: 7vh;
+    padding: 1.5vh;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 1.2vh;
+}
+.otherFaculty{
+    margin: 14vh 0vh;
+}

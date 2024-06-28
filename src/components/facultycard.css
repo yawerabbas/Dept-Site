@@ -1,0 +1,33 @@
+.outercard {
+    background: linear-gradient(151.75deg, rgba(12, 121, 182, 0.2) 17.48%, rgba(233, 206, 176, 0) 85.96%), linear-gradient(198.44deg, rgba(245, 216, 199, 0) 20.65%, #F9C8C8 79.75%);
+    background-blend-mode: normal, darken;
+    border-radius: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 40rem;
+}
+.photoc{
+    padding: 15px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.personal{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.public{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.photoc{
+    width: 2rem;
+    height: 2rem;
+}

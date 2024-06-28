@@ -1,0 +1,30 @@
+.ug{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ttxt{
+    padding: 20px;
+}
+.pg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.phd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.jk{
+    width: 100%;
+}
+.link{
+    padding: 10px;
+}
+.stuwie{
+    padding: 50px;
+}

@@ -1,0 +1,11 @@
+.Applogo{
+    height: inherit;
+    width: 50%;
+    padding: 1rem;
+}
+.head{
+    background-color: #89375F;
+    display: flex;
+    height: 6rem;
+    position: static;
+}
